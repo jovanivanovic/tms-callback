@@ -1,0 +1,51 @@
+//
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../node_modules/bootstrap-vue/src/index.scss';
+@import '../../node_modules/pc-bootstrap4-datetimepicker/build/css/bootstrap-datetimepicker.css';
+@import '../../node_modules/font-awesome/scss/font-awesome';
+
+@import 'form';
+@import 'success';
+@import 'admin';
+
+body {
+    background: url("../img/switches.svg") no-repeat center / contain, #313D3F;
+    background-attachment: fixed;
+
+    align-items: unset;
+    justify-content: unset;
+    flex-direction: column;
+
+    #app {
+        padding: 50px 0;
+        margin: auto;
+    }
+}
+
+.HomePage {
+    .body {
+        text-align: center;
+
+        .logo {
+            display: block;
+            margin: 0 auto;
+            height: 50px;
+        }
+
+        h3 {
+            color: #fff;
+            margin: 30px 0 10px 0;
+        }
+
+        p {
+            color: #fff;
+            margin: 0 0 30px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 0 auto 10px;
+        }
+    }
+}
