@@ -21,7 +21,7 @@
                           :invalid-feedback="errors.phone ? errors.phone[0] : ''"
                           :valid-feedback="''"
                           :state="getInputState('phone')">
-                        <b-form-input :state="getInputState('phone')" id="phone-input" v-model="form.phone" type="text" required placeholder="Enter your phone number"></b-form-input>
+                        <b-form-input :state="getInputState('phone')" id="phone-input" v-model="form.phone" type="text" required placeholder="+381601234567"></b-form-input>
                     </b-form-group>
 
                     <b-form-group id="order-number" label="Order Number:" label-for="order-number-input"
